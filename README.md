@@ -5,6 +5,15 @@
 
 Sage is a WordPress starter theme with a modern development workflow.
 
+
+## Main Considerations
+* Just put attention to the themes/resources/assets/config.json file
+* AND REMEMBER TO change the stylelint versions in the package.json file to:
+  "stylelint": "^8.4.0",
+  "stylelint-config-standard": "~18.2.0",
+  "stylelint-webpack-plugin": "^0.10.5",
+or maybe just delete them :v
+
 ## Features
 
 * Sass for stylesheets
@@ -118,4 +127,4 @@ Keep track of development and community news.
 * Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 * Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
 * Listen to the [Roots Radio podcast](https://roots.io/podcast/)
-"# sage9-template" 
+"# sage9-template"
